@@ -19,11 +19,3 @@ $ source ~/.bash_aliases
 
 
 
-
-
-del .bash_aliases.old
-mv config.sh to root folder
-clear env
-
-todo add dist folder
-todo proxy apache config
