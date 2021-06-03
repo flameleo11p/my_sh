@@ -5,16 +5,25 @@ my common sh
 123
 
 
-my_sh/modules
 
-1	env.sh
-1	tools.sh
-1	common.sh
-1	func.sh
-1	helpers.sh
-	demo.sh
-	desktop.sh
-	old.sh
-	temp.sh
-	test.sh
-1	aliases.sh
+
+$ git clone git@github.com:flameleo11p/my_sh.git
+$ cd my_sh
+$ ./install.sh
+$ cp .bash_aliases ~/.bash_aliases
+
+
+./modules
+
+[+]		env.sh
+[+]		tools.sh
+[+]		common.sh
+[+]		func.sh
+[+]		helpers.sh
+[ ]		demo.sh
+[-]		desktop.sh
+[+]		aliases.sh
+
+
+
+

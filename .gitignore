@@ -2,4 +2,11 @@
 logs
 *.log
 
+old.sh
+temp.sh
+test.sh
+
+*.old
+
 config.sh
+.bash_aliases

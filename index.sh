@@ -1,35 +1,38 @@
 
-if [ -f ./modules/config.sh ]; then
-  . ./modules/config.sh
+# export MY_SH_FOLDER=/drive_d/work/my_sh
+
+if [ -f "$MY_SH_FOLDER/modules/config.sh" ]; then
+  source "$MY_SH_FOLDER/modules/config.sh"
 fi
 
-if [ -f ./modules/env.sh ]; then
-  . ./modules/env.sh
+if [ -f "$MY_SH_FOLDER/modules/env.sh" ]; then
+  source "$MY_SH_FOLDER/modules/env.sh"
 fi
 
-if [ -f ./modules/tools.sh ]; then
-  . ./modules/tools.sh
+if [ -f "$MY_SH_FOLDER/modules/tools.sh" ]; then
+  source "$MY_SH_FOLDER/modules/tools.sh"
 fi
 
-if [ -f ./modules/common.sh ]; then
-  . ./modules/common.sh
+if [ -f "$MY_SH_FOLDER/modules/common.sh" ]; then
+  source "$MY_SH_FOLDER/modules/common.sh"
 fi
 
-if [ -f ./modules/func.sh ]; then
-  . ./modules/func.sh
+if [ -f "$MY_SH_FOLDER/modules/func.sh" ]; then
+  source "$MY_SH_FOLDER/modules/func.sh"
 fi
 
-# if [ -f ./modules/desktop.sh ]; then
-#   . ./modules/desktop.sh
+# if [ -f "$MY_SH_FOLDER/modules/desktop.sh" ]; then
+#   source "$MY_SH_FOLDER/modules/desktop.sh"
 # fi
 
-if [ -f ./modules/helpers.sh ]; then
-  . ./modules/helpers.sh
+if [ -f "$MY_SH_FOLDER/modules/helpers.sh" ]; then
+  source "$MY_SH_FOLDER/modules/helpers.sh"
 fi
 
-if [ -f ./modules/aliases.sh ]; then
-  . ./modules/aliases.sh
+if [ -f "$MY_SH_FOLDER/modules/aliases.sh" ]; then
+  source "$MY_SH_FOLDER/modules/aliases.sh"
 fi
+
 
 bash_history_log
 
