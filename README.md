@@ -1,17 +1,10 @@
-# my_sh
-my common sh
+command
 
-
-123
-
-
-
-
-$ git clone git@github.com:flameleo11p/my_sh.git
+$ git clone https://github.com/flameleo11p/my_sh.git
 $ cd my_sh
 $ ./install.sh
 $ cp .bash_aliases ~/.bash_aliases
-
+$ source ~/.bash_aliases
 
 ./modules
 
@@ -27,3 +20,10 @@ $ cp .bash_aliases ~/.bash_aliases
 
 
 
+
+del .bash_aliases.old
+mv config.sh to root folder
+clear env
+
+todo add dist folder
+todo proxy apache config

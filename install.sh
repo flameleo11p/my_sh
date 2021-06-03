@@ -1,6 +1,6 @@
 
 function main() {
-  mkdir -p ./logs
+  mkdir -p ./logs/bash_history/
 
   local entry="$(realpath ./index.sh)"
   local logfolder="$(realpath ./logs)"
@@ -13,8 +13,8 @@ function main() {
   echo -en "if [ -f $entry ]; then\n  . $entry\nfi\n" >> ./.bash_aliases
 
   echo init log folder: $logfolder
-  echo "export MY_BASH_LOG_FOLDER=$logfolder" > ./modules/config.sh
-  cat ./modules/config.sh.example >> ./modules/config.sh
+  echo "export MY_BASH_LOG_FOLDER=$logfolder" > ./config.sh
+  cat ./config.sh.example >> ./config.sh
   
 }
 

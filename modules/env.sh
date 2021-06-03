@@ -11,11 +11,3 @@
 
 # export WINEARCH=
 # export WINEPREFIX=
-
-
-export MY_BASH_LOG_FILE="/home/me/Documents/bash-log/bash-usr_$EUID-$(date +"%Y_%m_%d").log"
-export HISTFILE="/drive_d/log/bash_history/user_$EUID-$(date +"%Y_%m").log"
-
-
-
-

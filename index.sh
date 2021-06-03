@@ -1,8 +1,8 @@
 
 # export MY_SH_FOLDER=/drive_d/work/my_sh
 
-if [ -f "$MY_SH_FOLDER/modules/config.sh" ]; then
-  source "$MY_SH_FOLDER/modules/config.sh"
+if [ -f "$MY_SH_FOLDER/config.sh" ]; then
+  source "$MY_SH_FOLDER/config.sh"
 fi
 
 if [ -f "$MY_SH_FOLDER/modules/env.sh" ]; then
@@ -21,9 +21,9 @@ if [ -f "$MY_SH_FOLDER/modules/func.sh" ]; then
   source "$MY_SH_FOLDER/modules/func.sh"
 fi
 
-# if [ -f "$MY_SH_FOLDER/modules/desktop.sh" ]; then
-#   source "$MY_SH_FOLDER/modules/desktop.sh"
-# fi
+if [ -f "$MY_SH_FOLDER/modules/desktop.sh" ]; then
+  source "$MY_SH_FOLDER/modules/desktop.sh"
+fi
 
 if [ -f "$MY_SH_FOLDER/modules/helpers.sh" ]; then
   source "$MY_SH_FOLDER/modules/helpers.sh"
