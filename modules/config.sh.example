@@ -1,0 +1,4 @@
+
+export MY_BASH_LOG_FOLDER="/drive_d/log"
+export HISTFILE="$MY_BASH_LOG_FOLDER/bash_history/user_$EUID-$(date +"%Y_%m").log"
+
